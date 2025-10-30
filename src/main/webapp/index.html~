@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Sending</title>
+
+</head>
+<body>
+<!-- index.html -->
+    <form action="/api/email/send" method="post">
+        <input type="email" name="emailTo" placeholder="Enter Email" required />
+        <input type="text" name="subject" placeholder="Enter the Subject" required />
+        <input type="text" name="body" placeholder="Enter the body message" required />
+        <button type="submit">Send</button>
+    </form>
+
+</body>
+</html>
