@@ -1,5 +1,5 @@
 spring.application.name=sampleproject
-server.port=${PORT:8080}
+server.port=${PORT:9090}
 
 spring.datasource.url=jdbc:mysql://localhost:3306/sampledb
 spring.datasource.username=root
@@ -12,7 +12,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
-spring.mail.username=myappmailer1712@gmail.com
+spring.mail.username=${myappmailer1712@gmail.com}
 spring.mail.password=xpvc ddvk lqzu tjsb
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
